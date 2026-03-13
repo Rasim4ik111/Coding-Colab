@@ -7,6 +7,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  width: 1536px;
+  height: 1042px;
 }
 
 main {
@@ -71,10 +73,13 @@ img {
 .another {
   display: flex;
   padding: 10px;
+  justify-content: space-between;
 }
-
 .media {
   background-color: white;
+  border-radius: 10px;
   color: black;
-  border: 1px solid black;
+  border: 1px solid gray;
+  width: 190px;
+  margin: 10px;
 }
