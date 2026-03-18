@@ -9,38 +9,46 @@
   </head>
   <body>
     <main>
-      <section class="auth">
+      <section class="left">
         <form action="/signup">
           <h1>Welcome back!</h1>
-          <h3>Enter your Credentials to access your account</h3>
+          <h5>Enter your Credentials to access your account</h5>
 
           <label for="email">Email adress</label>
-          <input type="text" name="email" placeholder="Enter your email" />
+          <input
+            type="text"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
 
           <label for="password">Password</label>
           <input
             type="text"
             name="password"
             placeholder="Enter your password"
+            required
           />
 
           <div class="checkbox">
-            <input type="checkbox" />
+            <input type="checkbox" required />
             <p>I agree to the terms & policy</p>
           </div>
 
           <button class="submit" type="submit">Signup</button>
 
           <div class="another">
-            <button class="media" type="submit">Signup</button>
-            <button class="media" type="submit">Signup</button>
+            <button class="media" type="submit">Sign in with Google</button>
+            <button class="media" type="submit">Sign in with Apple</button>
           </div>
 
           <p>Don’t have an account? <a href="index.html">Sign Up </a></p>
         </form>
       </section>
 
-      <img src="img.jpg" alt="img" />
+      <div class="right">
+        <img src="img.jpg" alt="img" />
+      </div>
     </main>
   </body>
 </html>
